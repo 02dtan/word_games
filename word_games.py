@@ -14,10 +14,7 @@
 #   with all char from an input string. Returns list of
 #   valid words; if no words, returns empty list
 chars=input("input your characters in ALL CAPS: ")
-print(chars)
 charsList=sorted(list(chars))
-print(charsList)
-#sortedList=[]
 final=[]
 with open("scrabble.txt", 'r') as f:
     for line in f:
